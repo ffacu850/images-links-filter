@@ -1,0 +1,52 @@
+.contenedor{
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.cards{
+    
+
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0;
+    transition: opacity 0.5s linear 1s;
+}
+
+.cards__item{
+    
+    display: block;
+    padding: 0;
+    margin: 10px;
+    width: 246.65px;
+
+    transition: all 0.3s ease-out;
+    
+
+    .images{
+        width: 100%;
+        cursor: pointer;
+        vertical-align: top;
+        // position: absolute;
+        // width: 120;
+        // height: 120px;
+        // z-index: -100;
+    }
+
+    // & figcaption{
+    //     display: none;
+    // }
+}
+
+.filter{
+    visibility: hidden;
+    opacity: 0;
+    order: 1;
+    // display: none;
+}
+
+.open{
+    opacity: 1;
+}

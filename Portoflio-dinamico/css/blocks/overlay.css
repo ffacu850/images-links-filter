@@ -1,0 +1,59 @@
+.overlay {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0;
+  z-index: -100;
+}
+
+.overlay .description {
+  background: #fff;
+  height: 50px;
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 0 0 7px 7px;
+}
+
+.overlay__img {
+  height: 400px;
+  display: block;
+}
+
+.overlay .fas.fa-times {
+  top: 180px;
+  right: 500px;
+  position: absolute;
+  padding: 10px 12px;
+  background: #fff;
+}
+
+.activo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 1;
+  z-index: 200;
+}
+/*# sourceMappingURL=overlay.css.map */

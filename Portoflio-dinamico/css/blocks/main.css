@@ -1,0 +1,46 @@
+.contenedor {
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.cards {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s linear 1s;
+  transition: opacity 0.5s linear 1s;
+}
+
+.cards__item {
+  display: block;
+  padding: 0;
+  margin: 10px;
+  width: 246.65px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.cards__item .images {
+  width: 100%;
+  cursor: pointer;
+  vertical-align: top;
+}
+
+.filter {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.open {
+  opacity: 1;
+}
+/*# sourceMappingURL=main.css.map */

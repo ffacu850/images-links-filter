@@ -1,0 +1,61 @@
+.header {
+  padding: 40px 0;
+}
+
+.header .logo {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header .parrafo {
+  margin-top: -15px;
+  color: #9B9B9B;
+}
+
+.form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+
+.barra-busqueda {
+  width: 70%;
+  height: 40px;
+  line-height: 40px;
+  background: #fff;
+  padding: 0 20px;
+  border-radius: 100px;
+  text-align: center;
+  font-size: 16px;
+  border-style: none;
+}
+
+.categorias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.categorias a {
+  color: #9B9B9B;
+  margin: 10px 20px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.categorias .activo {
+  color: #000;
+}
+/*# sourceMappingURL=header.css.map */
